@@ -1,4 +1,32 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
+# ***************************************************************#
+# recommended git ignore rules for Windowna operating system
+#****************************************************************#
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+#****************************************************************#
 
 # compiled output
 /dist
@@ -8,11 +36,17 @@
 # dependencies
 /node_modules
 
+<<<<<<< HEAD
 # profiling files
 chrome-profiler-events.json
 speed-measure-plugin.json
 
 # IDEs and editors
+=======
+#****************************************************************#
+# IDEs and editors                                               #
+#****************************************************************#
+>>>>>>> 3662f20c4f15932816fa43b3a1ba4ebf46110292
 /.idea
 .project
 .classpath
@@ -34,6 +68,7 @@ speed-measure-plugin.json
 /coverage
 /libpeerconnection.log
 npm-debug.log
+<<<<<<< HEAD
 yarn-error.log
 testem.log
 /typings
@@ -41,3 +76,48 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+=======
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# Compiled source 
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Packages 
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated System Files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+*.lock
+#****************************************************************#
+>>>>>>> 3662f20c4f15932816fa43b3a1ba4ebf46110292
