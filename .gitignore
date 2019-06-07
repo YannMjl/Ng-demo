@@ -36,17 +36,14 @@ $RECYCLE.BIN/
 # dependencies
 /node_modules
 
-<<<<<<< HEAD
 # profiling files
 chrome-profiler-events.json
 speed-measure-plugin.json
 
 # IDEs and editors
-=======
 #****************************************************************#
 # IDEs and editors                                               #
 #****************************************************************#
->>>>>>> 3662f20c4f15932816fa43b3a1ba4ebf46110292
 /.idea
 .project
 .classpath
@@ -68,7 +65,6 @@ speed-measure-plugin.json
 /coverage
 /libpeerconnection.log
 npm-debug.log
-<<<<<<< HEAD
 yarn-error.log
 testem.log
 /typings
@@ -76,7 +72,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-=======
 testem.log
 /typings
 
@@ -120,4 +115,3 @@ Thumbs.db
 
 *.lock
 #****************************************************************#
->>>>>>> 3662f20c4f15932816fa43b3a1ba4ebf46110292
